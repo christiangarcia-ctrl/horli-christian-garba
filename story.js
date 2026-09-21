@@ -10,7 +10,7 @@
   const setActive = (index) => {
     active = index;
     scenes[index].classList.add('is-active');
-    count.innerHTML = `${String(index + 1).padStart(2, '0')} <span>/ 07</span>`;
+    count.innerHTML = `${String(index + 1).padStart(2, '0')} <span>/ ${String(scenes.length).padStart(2, '0')}</span>`;
     sceneName.textContent = scenes[index].dataset.name;
     progress.style.width = `${((index + 1) / scenes.length) * 100}%`;
     previous.href = `#${scenes[Math.max(0, index - 1)].id}`;

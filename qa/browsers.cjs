@@ -15,7 +15,7 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
   const sizes=await p.evaluate(()=>performance.getEntriesByType('resource').map(r=>({name:r.name.split('/').pop(),bytes:r.transferSize})));
   const nav=await p.evaluate(()=>({domReady:performance.getEntriesByType('navigation')[0].domContentLoadedEventEnd,scrollWidth:document.documentElement.scrollWidth}));
   const steps=[];
-  for(let i=0;i<6;i++){await p.locator('.next-scene').tap();await p.waitForTimeout(1100);steps.push(await p.locator('.scene-count').innerText());}
+  for(let i=0;i<7;i++){await p.locator('.next-scene').tap();await p.waitForTimeout(1100);steps.push(await p.locator('.scene-count').innerText());}
   await p.keyboard.press('ArrowRight');await p.waitForTimeout(300);const last=await p.locator('.scene-count').innerText();
   await p.locator('.restart').tap();await p.waitForTimeout(1400);const restart=await p.locator('.scene-count').innerText();
   await p.locator('#garba').evaluate(e=>e.scrollIntoView({behavior:'instant'}));await p.waitForTimeout(200);
@@ -32,5 +32,5 @@ for(const [engine,type] of [['chromium',chromium],['webkit',webkit]]){
  await b.close();
 }
 fs.writeFileSync(path.resolve(__dirname,'browser-results.json'),JSON.stringify(results,null,2));console.log(JSON.stringify(results.map(({images,sizes,links,...r})=>r),null,2));
-if(results.some(r=>r.errors.length||r.failed.length||r.resizedOverflow||!r.retirement||!r.last.startsWith('07')||!r.restart.startsWith('01')||!r.quote.startsWith('02')))process.exitCode=1;
+if(results.some(r=>r.errors.length||r.failed.length||r.resizedOverflow||!r.retirement||!r.last.startsWith('08')||!r.restart.startsWith('01')||!r.quote.startsWith('02')))process.exitCode=1;
 })();

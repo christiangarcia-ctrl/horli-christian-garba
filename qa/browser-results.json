@@ -5,30 +5,31 @@
     "errors": [],
     "failed": [],
     "steps": [
-      "02 / 07",
-      "03 / 07",
-      "04 / 07",
-      "05 / 07",
-      "06 / 07",
-      "07 / 07"
+      "02 / 08",
+      "03 / 08",
+      "04 / 08",
+      "05 / 08",
+      "06 / 08",
+      "07 / 08",
+      "08 / 08"
     ],
-    "last": "07 / 07",
-    "restart": "01 / 07",
+    "last": "08 / 08",
+    "restart": "01 / 08",
     "retirement": true,
     "quote": "02 / 05",
     "resizedOverflow": false,
     "nav": {
-      "domReady": 157.80000001192093,
+      "domReady": 119.60000002384186,
       "scrollWidth": 390
     },
     "sizes": [
       {
         "name": "style.css",
-        "bytes": 19133
+        "bytes": 29528
       },
       {
         "name": "story.js",
-        "bytes": 4306
+        "bytes": 4345
       },
       {
         "name": "garba-original.png",
@@ -39,11 +40,43 @@
         "bytes": 69628
       },
       {
+        "name": "loreal.svg",
+        "bytes": 5866
+      },
+      {
+        "name": "henkel.svg",
+        "bytes": 2475
+      },
+      {
+        "name": "walmart-spark.svg",
+        "bytes": 2455
+      },
+      {
+        "name": "walmart-wordmark.svg",
+        "bytes": 3145
+      },
+      {
         "name": "family-960.webp",
         "bytes": 215912
+      },
+      {
+        "name": "work-960.webp",
+        "bytes": 34890
       }
     ],
     "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20quiero%20contarte%20lo%20que%20estoy%20construyendo%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20conocer%20a%20alguien%20que%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20estoy%20buscando%20esta%20oportunidad%3A%20",
+        "rel": "noopener noreferrer"
+      },
       {
         "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
         "rel": "noopener noreferrer"
@@ -81,17 +114,52 @@
         "fit": "cover"
       },
       {
+        "src": "assets/walmart-wordmark.svg",
+        "loaded": true,
+        "displayRatio": 5.416666666666667,
+        "naturalRatio": 5.357142857142857,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/walmart-spark.svg",
+        "loaded": true,
+        "displayRatio": 0.8928571428571429,
+        "naturalRatio": 0.8866666666666667,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/loreal.svg",
+        "loaded": true,
+        "displayRatio": 3.8125,
+        "naturalRatio": 3.7974683544303796,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/henkel.svg",
+        "loaded": true,
+        "displayRatio": 1.3333333333333333,
+        "naturalRatio": 1.3333333333333333,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.44,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
         "src": "assets/family-960.webp",
         "loaded": true,
-        "displayRatio": 0.5416666666666666,
+        "displayRatio": 0.6610169491525424,
         "naturalRatio": 0.6649572649572649,
         "fit": "cover"
       },
       {
-        "src": "assets/work-480.webp",
+        "src": "assets/work-960.webp",
         "loaded": true,
-        "displayRatio": 1.0638297872340425,
-        "naturalRatio": 1.5053763440860215,
+        "displayRatio": 1.8888888888888888,
+        "naturalRatio": 1.5,
         "fit": "cover"
       },
       {
@@ -109,45 +177,78 @@
     "errors": [],
     "failed": [],
     "steps": [
-      "02 / 07",
-      "03 / 07",
-      "04 / 07",
-      "05 / 07",
-      "06 / 07",
-      "07 / 07"
+      "02 / 08",
+      "03 / 08",
+      "04 / 08",
+      "05 / 08",
+      "06 / 08",
+      "07 / 08",
+      "08 / 08"
     ],
-    "last": "07 / 07",
-    "restart": "01 / 07",
+    "last": "08 / 08",
+    "restart": "01 / 08",
     "retirement": true,
     "quote": "02 / 05",
     "resizedOverflow": false,
     "nav": {
-      "domReady": 199.39999997615814,
+      "domReady": 33.5,
       "scrollWidth": 430
     },
     "sizes": [
       {
         "name": "style.css",
-        "bytes": 19133
+        "bytes": 29528
       },
       {
-        "name": "portrait-960.webp",
-        "bytes": 69628
+        "name": "story.js",
+        "bytes": 4345
       },
       {
         "name": "garba-original.png",
         "bytes": 2363
       },
       {
-        "name": "story.js",
-        "bytes": 4306
+        "name": "portrait-960.webp",
+        "bytes": 69628
+      },
+      {
+        "name": "walmart-wordmark.svg",
+        "bytes": 3145
+      },
+      {
+        "name": "henkel.svg",
+        "bytes": 2475
+      },
+      {
+        "name": "work-960.webp",
+        "bytes": 34890
+      },
+      {
+        "name": "loreal.svg",
+        "bytes": 5866
       },
       {
         "name": "family-960.webp",
         "bytes": 215912
+      },
+      {
+        "name": "walmart-spark.svg",
+        "bytes": 2455
       }
     ],
     "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20quiero%20contarte%20lo%20que%20estoy%20construyendo%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20conocer%20a%20alguien%20que%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20estoy%20buscando%20esta%20oportunidad%3A%20",
+        "rel": "noopener noreferrer"
+      },
       {
         "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
         "rel": "noopener noreferrer"
@@ -185,17 +286,52 @@
         "fit": "cover"
       },
       {
+        "src": "assets/walmart-wordmark.svg",
+        "loaded": true,
+        "displayRatio": 5.416666666666667,
+        "naturalRatio": 5.357142857142857,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/walmart-spark.svg",
+        "loaded": true,
+        "displayRatio": 0.8928571428571429,
+        "naturalRatio": 0.8866666666666667,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/loreal.svg",
+        "loaded": true,
+        "displayRatio": 3.8125,
+        "naturalRatio": 3.7974683544303796,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/henkel.svg",
+        "loaded": true,
+        "displayRatio": 1.3333333333333333,
+        "naturalRatio": 1.3333333333333333,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.44,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
         "src": "assets/family-960.webp",
         "loaded": true,
-        "displayRatio": 0.5498721227621484,
+        "displayRatio": 0.7288135593220338,
         "naturalRatio": 0.6666666666666666,
         "fit": "cover"
       },
       {
-        "src": "assets/work-480.webp",
+        "src": "assets/work-960.webp",
         "loaded": true,
-        "displayRatio": 1.0638297872340425,
-        "naturalRatio": 1.5053763440860215,
+        "displayRatio": 2.111111111111111,
+        "naturalRatio": 1.5,
         "fit": "cover"
       },
       {
@@ -213,45 +349,70 @@
     "errors": [],
     "failed": [],
     "steps": [
-      "02 / 07",
-      "03 / 07",
-      "04 / 07",
-      "05 / 07",
-      "06 / 07",
-      "07 / 07"
+      "02 / 08",
+      "03 / 08",
+      "04 / 08",
+      "05 / 08",
+      "06 / 08",
+      "07 / 08",
+      "08 / 08"
     ],
-    "last": "07 / 07",
-    "restart": "01 / 07",
+    "last": "08 / 08",
+    "restart": "01 / 08",
     "retirement": true,
     "quote": "02 / 05",
     "resizedOverflow": false,
     "nav": {
-      "domReady": 642,
+      "domReady": 147,
       "scrollWidth": 390
     },
     "sizes": [
       {
-        "name": "style.css",
-        "bytes": 19133
-      },
-      {
         "name": "story.js",
-        "bytes": 4306
+        "bytes": 4345
       },
       {
-        "name": "portrait-960.webp",
-        "bytes": 69628
+        "name": "style.css",
+        "bytes": 29528
       },
       {
         "name": "garba-original.png",
         "bytes": 2363
       },
       {
-        "name": "family-960.webp",
+        "name": "portrait-960.webp",
+        "bytes": 69628
+      },
+      {
+        "name": "walmart-wordmark.svg",
+        "bytes": 0
+      },
+      {
+        "name": "walmart-spark.svg",
+        "bytes": 0
+      },
+      {
+        "name": "loreal.svg",
+        "bytes": 0
+      },
+      {
+        "name": "henkel.svg",
         "bytes": 0
       }
     ],
     "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20quiero%20contarte%20lo%20que%20estoy%20construyendo%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20conocer%20a%20alguien%20que%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20estoy%20buscando%20esta%20oportunidad%3A%20",
+        "rel": "noopener noreferrer"
+      },
       {
         "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
         "rel": "noopener noreferrer"
@@ -289,17 +450,52 @@
         "fit": "cover"
       },
       {
+        "src": "assets/walmart-wordmark.svg",
+        "loaded": true,
+        "displayRatio": 5.416666666666667,
+        "naturalRatio": 5.357142857142857,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/walmart-spark.svg",
+        "loaded": true,
+        "displayRatio": 0.8928571428571429,
+        "naturalRatio": 0.8866666666666667,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/loreal.svg",
+        "loaded": true,
+        "displayRatio": 3.8125,
+        "naturalRatio": 3.8461538461538463,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/henkel.svg",
+        "loaded": true,
+        "displayRatio": 1.3333333333333333,
+        "naturalRatio": 1.3571428571428572,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.44,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
         "src": "assets/family-960.webp",
         "loaded": true,
-        "displayRatio": 0.5416666666666666,
+        "displayRatio": 0.6610169491525424,
         "naturalRatio": 0.6649572649572649,
         "fit": "cover"
       },
       {
-        "src": "assets/work-480.webp",
+        "src": "assets/work-960.webp",
         "loaded": true,
-        "displayRatio": 1.0638297872340425,
-        "naturalRatio": 1.5053763440860215,
+        "displayRatio": 1.8888888888888888,
+        "naturalRatio": 1.5,
         "fit": "cover"
       },
       {
@@ -317,38 +513,55 @@
     "errors": [],
     "failed": [],
     "steps": [
-      "02 / 07",
-      "03 / 07",
-      "04 / 07",
-      "05 / 07",
-      "06 / 07",
-      "07 / 07"
+      "02 / 08",
+      "03 / 08",
+      "04 / 08",
+      "05 / 08",
+      "06 / 08",
+      "07 / 08",
+      "08 / 08"
     ],
-    "last": "07 / 07",
-    "restart": "01 / 07",
+    "last": "08 / 08",
+    "restart": "01 / 08",
     "retirement": true,
     "quote": "02 / 05",
     "resizedOverflow": false,
     "nav": {
-      "domReady": 229,
+      "domReady": 23,
       "scrollWidth": 430
     },
     "sizes": [
       {
-        "name": "style.css",
-        "bytes": 19133
+        "name": "story.js",
+        "bytes": 4345
       },
       {
-        "name": "story.js",
-        "bytes": 4306
+        "name": "style.css",
+        "bytes": 29528
+      },
+      {
+        "name": "portrait-960.webp",
+        "bytes": 69628
       },
       {
         "name": "garba-original.png",
         "bytes": 2363
       },
       {
-        "name": "portrait-960.webp",
-        "bytes": 69628
+        "name": "walmart-wordmark.svg",
+        "bytes": 0
+      },
+      {
+        "name": "walmart-spark.svg",
+        "bytes": 0
+      },
+      {
+        "name": "loreal.svg",
+        "bytes": 0
+      },
+      {
+        "name": "henkel.svg",
+        "bytes": 0
       },
       {
         "name": "family-960.webp",
@@ -356,6 +569,18 @@
       }
     ],
     "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20quiero%20contarte%20lo%20que%20estoy%20construyendo%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20conocer%20a%20alguien%20que%3A%20",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20estoy%20buscando%20esta%20oportunidad%3A%20",
+        "rel": "noopener noreferrer"
+      },
       {
         "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
         "rel": "noopener noreferrer"
@@ -393,17 +618,52 @@
         "fit": "cover"
       },
       {
+        "src": "assets/walmart-wordmark.svg",
+        "loaded": true,
+        "displayRatio": 5.416666666666667,
+        "naturalRatio": 5.357142857142857,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/walmart-spark.svg",
+        "loaded": true,
+        "displayRatio": 0.8928571428571429,
+        "naturalRatio": 0.8866666666666667,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/loreal.svg",
+        "loaded": true,
+        "displayRatio": 3.8125,
+        "naturalRatio": 3.8461538461538463,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/henkel.svg",
+        "loaded": true,
+        "displayRatio": 1.3333333333333333,
+        "naturalRatio": 1.3571428571428572,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.44,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
         "src": "assets/family-960.webp",
         "loaded": true,
-        "displayRatio": 0.5498721227621484,
+        "displayRatio": 0.7288135593220338,
         "naturalRatio": 0.6666666666666666,
         "fit": "cover"
       },
       {
-        "src": "assets/work-480.webp",
+        "src": "assets/work-960.webp",
         "loaded": true,
-        "displayRatio": 1.0638297872340425,
-        "naturalRatio": 1.5053763440860215,
+        "displayRatio": 2.111111111111111,
+        "naturalRatio": 1.5,
         "fit": "cover"
       },
       {

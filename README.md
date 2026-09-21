@@ -1,6 +1,6 @@
 # Christian García · HORLI V2
 
-Una historia web de siete escenas para conocer a Christian, recordar su enfoque y reconocer cuándo presentarle a alguien. Proyecto independiente. HTML, CSS y JavaScript nativos; sin dependencias de producción, servicios externos, tracking ni compilación.
+Una historia web de ocho escenas para conocer a Christian, descubrir afinidades y entender cómo ayudarse mutuamente. Proyecto independiente. HTML, CSS y JavaScript nativos; sin dependencias de producción, servicios externos, tracking ni compilación.
 
 URL prevista: https://christiangarcia-ctrl.github.io/horli-christian-garba/
 
@@ -13,7 +13,7 @@ Abrir `index.html` directamente o servir esta carpeta con `python3 -m http.serve
 - `story.js`: indicadores, flechas de escena y controles de frases.
 - `assets/`: fotografías WebP responsivas, logo original y preview social.
 
-El scroll vertical, los enlaces, el carrusel horizontal y las opciones Familia/Retiro/Patrimonio funcionan sin JavaScript. No hay avance automático ni loop. Las flechas izquierda/derecha recorren las escenas; dentro de opciones y frases conservan la navegación propia del control. Reiniciar es una acción explícita.
+El scroll vertical, los enlaces, el carrusel horizontal y las opciones Familia/Retiro/Patrimonio funcionan sin JavaScript. No hay avance automático ni loop. La escena nueva tiene el ancla `#construyendo`; todas las anclas anteriores, incluido `#conectar`, permanecen. Las flechas izquierda/derecha recorren las escenas; dentro de opciones y frases conservan la navegación propia del control. Reiniciar es una acción explícita.
 
 Se usa `100svh` con fallback `100vh` para mantener estable la composición al aparecer/desaparecer la barra de Safari. Las escenas pueden crecer si el contenido lo requiere. La barra de navegación respeta safe areas. Fuentes de sistema: Georgia y Arial; sin descargas externas.
 
@@ -21,7 +21,7 @@ Se usa `100svh` con fallback `100vh` para mantener estable la composición al ap
 
 Se exploraron tres rutas: una secuencia de manifiestos tipográficos; un documental centrado en fotos; y una conversación interactiva basada en frases de referencia. Se eligió combinar una historia fotográfica editorial con la interacción de escucha: muestra quién es Christian y deja una señal fácil de recordar.
 
-Arco: negocios → personas → lo que estás construyendo → escuchar una necesidad → conectar relaciones. Los fondos cálidos rompen el ritmo del navy; la familia tiene un momento de fotografía dominante; las frases se descubren una a una. El visitante controla la duración, con un recorrido principal pensado para 60–90 segundos y exploración opcional.
+Arco: trayectoria → persona y afinidades → la firma que quiere construir → cómo trabaja → reconocer una necesidad → redes en ambos sentidos → conocer al visitante. Los fondos cálidos rompen el ritmo del navy; la familia tiene un momento de fotografía dominante; las frases se descubren una a una. El cierre ofrece tres conversaciones: un objetivo, una conexión o una oportunidad. Las opciones preparan un mensaje de WhatsApp editable; nunca envían nada automáticamente. El visitante controla la duración, con un recorrido principal pensado para 60–90 segundos y exploración opcional.
 
 ## Recursos originales
 
@@ -44,3 +44,9 @@ Resultados: `qa/results.json`. Capturas locales: `qa/screenshots/` (excluidas de
 ## Publicación
 
 GitHub Pages, rama `main`, carpeta raíz. `.nojekyll` conserva el sitio estático. Las rutas de assets son relativas; los metadatos canónicos y Open Graph apuntan a la URL pública prevista. La caché de WhatsApp puede tardar en reflejar cambios de preview.
+
+## Intervención HORLI: relación y reciprocidad
+
+Se conservó la base visual, el scroll nativo, las fotografías originales, el principio de trabajo, las cinco frases de referencia y los destinos de contacto. Se reforzaron objetivos, intereses y redes en ambos sentidos. Habilidades y logros se muestran mediante preguntas, experiencia y logos reales, sin cifras nuevas ni contactos inventados.
+
+Fuentes y tratamiento de logos: [assets/SOURCES.md](assets/SOURCES.md). Revisión narrativa y evidencia de aceptación: [qa/HORLI.md](qa/HORLI.md).

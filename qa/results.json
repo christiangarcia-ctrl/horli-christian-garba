@@ -26,6 +26,7 @@
   },
   {
     "javascriptDisabled": true,
+    "reciprocalWithoutJS": true,
     "wealthVisible": true,
     "scrollWidth": 390
   },

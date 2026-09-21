@@ -25,6 +25,7 @@ const output=path.resolve(__dirname,'screenshots');
    },id);
    if(bounds.overflow||bounds.out.length)failures.push({id,...bounds});
    await page.screenshot({path:path.join(output,`${w}-${id}.png`)});
+   await page.locator('#'+id).screenshot({path:path.join(output,`${w}-${id}-full.png`)});
   }
   await page.locator('#garba').evaluate(e=>e.scrollIntoView({behavior:'instant'}));
   for(const [choice,panel] of [['retirement','retirement'],['wealth','wealth'],['family','family']]){
@@ -36,7 +37,19 @@ const output=path.resolve(__dirname,'screenshots');
   if(!(await page.locator('.quote-next').isDisabled()))failures.push('quote end');
   await page.locator('#conectar').evaluate(e=>e.scrollIntoView({behavior:'instant'}));await page.waitForTimeout(100);
   await page.locator('h2#title-7').click();await page.keyboard.press('ArrowRight');await page.waitForTimeout(100);
-  if(!(await page.locator('.scene-count').innerText()).startsWith('07'))failures.push('last scene loops');
+  if(!(await page.locator('.scene-count').innerText()).startsWith('08'))failures.push('last scene loops');
+  for(const name of ['connection','opportunity','goal']) {
+   await page.locator(`label[for="your-${name}"]`).click();
+   if(!(await page.locator(`.answer-${name}`).isVisible())) failures.push('reciprocity '+name);
+   const href=await page.locator(`.answer-${name} a`).getAttribute('href');
+   if(!href.startsWith('https://wa.me/526623072573?text=')) failures.push('reciprocity contact');
+  }
+  const targetCount=await page.locator('.scene').count();
+  if(targetCount!==8) failures.push('missing narrative scene');
+  await page.locator('#personas').evaluate(e=>e.scrollIntoView({behavior:'instant'}));
+  await page.locator('.affinity-detail summary').click();
+  if(!(await page.locator('.affinity-detail p').isVisible())) failures.push('affinity detail');
+  await page.locator('.affinity-detail summary').click();
   await page.locator('.restart').click();await page.waitForTimeout(150);
   if(!(await page.locator('.scene-count').innerText()).startsWith('01'))failures.push('restart');
   await page.keyboard.press('ArrowRight');await page.waitForTimeout(150);
@@ -49,11 +62,13 @@ const output=path.resolve(__dirname,'screenshots');
  const p=await browser.newPage({viewport:{width:390,height:844},javaScriptEnabled:false});
  await p.goto(base);
  await p.locator('label[for="choose-wealth"]').click();
- results.push({javascriptDisabled:true,wealthVisible:await p.locator('.wealth-panel').isVisible(),scrollWidth:await p.locator('body').evaluate(e=>e.scrollWidth)});
+ await p.locator('label[for="your-connection"]').click();
+ const reciprocalWithoutJS=await p.locator('.answer-connection').isVisible();
+ results.push({javascriptDisabled:true,reciprocalWithoutJS,wealthVisible:await p.locator('.wealth-panel').isVisible(),scrollWidth:await p.locator('body').evaluate(e=>e.scrollWidth)});
  await browser.close();
  try{
  const b=await webkit.launch({headless:true});const p=await b.newPage({viewport:{width:390,height:844},isMobile:true,hasTouch:true});await p.goto(base);await p.emulateMedia({reducedMotion:'reduce'});await p.locator('.restart').click();await p.waitForTimeout(150);results.push({webkit:true,title:await p.title(),overflow:await p.evaluate(()=>document.documentElement.scrollWidth>innerWidth)});await b.close();
  }catch(e){results.push({webkit:false,error:e.message.slice(0,150)})}
  fs.writeFileSync(path.resolve(__dirname,'results.json'),JSON.stringify(results,null,2));console.log(JSON.stringify(results,null,2));
- if(results.some(r => r.failures?.length || r.errors?.length || r.wealthVisible === false || r.overflow)) process.exitCode=1;
+ if(results.some(r => r.failures?.length || r.errors?.length || r.wealthVisible === false || r.reciprocalWithoutJS === false || r.webkit === false || r.overflow)) process.exitCode=1;
 })();

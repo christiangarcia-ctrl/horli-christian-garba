@@ -1,33 +1,29 @@
-# QA — HORLI V2
+# QA — HORLI: relación y reciprocidad
 
-Fecha: 2026-09-21.
+Fecha: 2026-09-21. Intervención sobre la V2 existente.
 
 ## Resultado local
 
 PASS en Chromium: 390×844, 430×932, 768×1024, 1440×900 y 1920×1080.
-PASS en WebKit: 390×844 y 430×932 con emulación táctil, DPR 2 y movimiento normal.
+PASS en WebKit: 390×844 y 430×932, emulación táctil DPR 2 y movimiento normal.
 
-- Siete escenas completas. Flechas visibles, teclado, enlaces y scroll nativo.
-- Última escena permanece en 07; volver al principio requiere el enlace explícito.
-- Tres opciones Familia/Retiro/Patrimonio correctas; también sin JavaScript.
-- Cinco frases accesibles con scroll horizontal, flechas y teclado; sin loop.
-- Sin overflow horizontal en las cinco dimensiones, ni tras reducir 150 px la altura del viewport móvil.
-- Fotos cargadas, con proporciones conservadas y recortes revisados en capturas. Cuatro rostros visibles en la escena familiar.
-- Capturas revisadas por escena en móvil y desktop y composición familiar en tablet.
-- Reduced motion desactiva animaciones y desplazamiento suave.
-- Sin excepciones JavaScript ni solicitudes fallidas en el recorrido HTTP local.
-- Redes y WhatsApp conservan exactamente los destinos autorizados; enlaces externos con `noopener noreferrer`.
-- Logo original sin alteración. Imagen social 1200×630 revisada.
-- Sitio estático completo (HTML/CSS/JS + todos los assets): aproximadamente 550 KiB. No hay librerías ni fuentes remotas. Fotos WebP con `srcset`; hero prioritario, resto lazy.
+- Ocho escenas revisadas en capturas completas, móvil y desktop. Tablet revisada para trayectoria y logos.
+- Recorrido 01/08 → 08/08; última escena sin loop; reinicio explícito. Flechas visibles, teclado y scroll nativo conservados.
+- Enlace directo `#conectar` carga en 08/08 en Chromium y WebKit.
+- Familia/Retiro/Patrimonio y Objetivo/Conexión/Oportunidad funcionan con JavaScript y sin él.
+- Tres conversaciones recíprocas verificadas por tap en Chromium y WebKit; todas usan el WhatsApp canónico y no envían mensajes automáticamente.
+- Cinco frases conservadas, navegables; detalle opcional de cine abre/cierra correctamente.
+- Sin overflow horizontal ni elementos fuera de los límites de escena en los cinco tamaños. Sin overflow al reducir 150 px el alto móvil.
+- Fotos y logos sin deformación; familia con cuatro rostros visibles. Proporciones de logos verificadas también por geometría en ambos motores.
+- Logo GarBa idéntico byte a byte al original. Fotos, favicon y preview social conservados. Fuentes de nuevos logos en `assets/SOURCES.md`.
+- Reduced motion desactiva animación y desplazamiento suave; foco visible, controles nativos y enlaces externos seguros.
+- Sin errores JavaScript ni requests fallidos durante los recorridos HTTP locales.
+- HTML/CSS/JS + todos los assets visuales: 590532 bytes (aprox. 577 KiB), incremento de unos 27 KB. Sin dependencias de producción ni fuentes externas.
 
-Evidencia: `results.json` y `browser-results.json`. Las capturas se guardan localmente en `screenshots/` y no se publican en Git.
+Evidencia: `results.json`, `browser-results.json`; capturas locales en `screenshots/`, excluidas de Git. Evaluación de las cinco preguntas narrativas en `HORLI.md`.
 
 ## Límites
 
-WebKit de escritorio con emulación móvil no equivale a una prueba en un iPhone físico ni en cada navegador embebido de WhatsApp. Los cambios de alto se simularon; no se controló la barra real de Safari. La duración 60–90 s es un objetivo editorial, no una medición con usuarios. El tiempo de carga local no representa una red móvil real. Las cuentas sociales pueden pedir inicio de sesión; no se enviaron mensajes ni se iniciaron sesiones en ellas.
+WebKit móvil emulado no sustituye una prueba en iPhone físico ni en cada navegador embebido. La barra dinámica se aproxima con cambios de alto; no se controla la barra real de Safari. El recorrido 60–90 s es un objetivo editorial, no una medición con usuarios. Las cuentas sociales pueden requerir inicio de sesión. No se enviaron mensajes ni se iniciaron sesiones en ellas.
 
-## Verificación pública
-
-GitHub Pages desplegado desde `main`, raíz, con HTTPS. URL pública y preview JPG responden HTTP 200. Recorrido completo hasta 07/07 y reinicio a 01/07 verificados en producción. Sin errores JavaScript ni solicitudes fallidas. LinkedIn, Instagram, Facebook y Web abren los destinos indicados en pestañas nuevas.
-
-Una medición Chromium móvil (390×844, DPR 2), con latencia simulada de 150 ms y descarga de 200 KB/s, registró LCP de 964 ms. Es una medición de laboratorio, no una garantía de rendimiento real. Evidencia: `live-results.json`.
+La evidencia de publicación anterior en `live-results.json` se actualizará al terminar el despliegue de esta revisión.
