@@ -1,0 +1,50 @@
+{
+  "status": 200,
+  "errors": [],
+  "failed": [],
+  "last": "07 / 07",
+  "restart": "01 / 07",
+  "perf": {
+    "lcp": 964,
+    "domReady": 660.5,
+    "transfer": 294909,
+    "images": [
+      {
+        "src": "https://christiangarcia-ctrl.github.io/horli-christian-garba/assets/garba-original.png",
+        "loaded": true
+      },
+      {
+        "src": "https://christiangarcia-ctrl.github.io/horli-christian-garba/assets/portrait-960.webp",
+        "loaded": true
+      },
+      {
+        "src": "https://christiangarcia-ctrl.github.io/horli-christian-garba/assets/family-960.webp",
+        "loaded": true
+      }
+    ]
+  },
+  "links": [
+    {
+      "name": "LinkedIn ↗",
+      "href": "https://www.linkedin.com/in/christian-garcia-barragan/",
+      "opened": "https://www.linkedin.com/in/christian-garcia-barragan"
+    },
+    {
+      "name": "Instagram ↗",
+      "href": "https://www.instagram.com/christian_garba_sf/",
+      "opened": "https://www.instagram.com/christian_garba_sf/"
+    },
+    {
+      "name": "Facebook ↗",
+      "href": "https://www.facebook.com/GarbaSeguros",
+      "opened": "https://www.facebook.com/GarbaSeguros"
+    },
+    {
+      "name": "Web ↗",
+      "href": "https://sfgarba.com/allianz-optimaxx-plus-cotiza-plan-personal-de-retiro",
+      "opened": "https://sfgarba.com/allianz-optimaxx-plus-cotiza-plan-personal-de-retiro"
+    }
+  ],
+  "previewStatus": 200,
+  "previewType": "image/jpeg"
+}

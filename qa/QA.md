@@ -25,3 +25,9 @@ Evidencia: `results.json` y `browser-results.json`. Las capturas se guardan loca
 ## Límites
 
 WebKit de escritorio con emulación móvil no equivale a una prueba en un iPhone físico ni en cada navegador embebido de WhatsApp. Los cambios de alto se simularon; no se controló la barra real de Safari. La duración 60–90 s es un objetivo editorial, no una medición con usuarios. El tiempo de carga local no representa una red móvil real. Las cuentas sociales pueden pedir inicio de sesión; no se enviaron mensajes ni se iniciaron sesiones en ellas.
+
+## Verificación pública
+
+GitHub Pages desplegado desde `main`, raíz, con HTTPS. URL pública y preview JPG responden HTTP 200. Recorrido completo hasta 07/07 y reinicio a 01/07 verificados en producción. Sin errores JavaScript ni solicitudes fallidas. LinkedIn, Instagram, Facebook y Web abren los destinos indicados en pestañas nuevas.
+
+Una medición Chromium móvil (390×844, DPR 2), con latencia simulada de 150 ms y descarga de 200 KB/s, registró LCP de 964 ms. Es una medición de laboratorio, no una garantía de rendimiento real. Evidencia: `live-results.json`.
