@@ -1,0 +1,37 @@
+[
+  {
+    "viewport": "390x844",
+    "failures": [],
+    "errors": []
+  },
+  {
+    "viewport": "430x932",
+    "failures": [],
+    "errors": []
+  },
+  {
+    "viewport": "768x1024",
+    "failures": [],
+    "errors": []
+  },
+  {
+    "viewport": "1440x900",
+    "failures": [],
+    "errors": []
+  },
+  {
+    "viewport": "1920x1080",
+    "failures": [],
+    "errors": []
+  },
+  {
+    "javascriptDisabled": true,
+    "wealthVisible": true,
+    "scrollWidth": 390
+  },
+  {
+    "webkit": true,
+    "title": "Christian García · Construir futuro, conectar personas",
+    "overflow": false
+  }
+]

@@ -1,0 +1,418 @@
+[
+  {
+    "engine": "chromium",
+    "viewport": "390x844",
+    "errors": [],
+    "failed": [],
+    "steps": [
+      "02 / 07",
+      "03 / 07",
+      "04 / 07",
+      "05 / 07",
+      "06 / 07",
+      "07 / 07"
+    ],
+    "last": "07 / 07",
+    "restart": "01 / 07",
+    "retirement": true,
+    "quote": "02 / 05",
+    "resizedOverflow": false,
+    "nav": {
+      "domReady": 157.80000001192093,
+      "scrollWidth": 390
+    },
+    "sizes": [
+      {
+        "name": "style.css",
+        "bytes": 19133
+      },
+      {
+        "name": "story.js",
+        "bytes": 4306
+      },
+      {
+        "name": "garba-original.png",
+        "bytes": 2363
+      },
+      {
+        "name": "portrait-960.webp",
+        "bytes": 69628
+      },
+      {
+        "name": "family-960.webp",
+        "bytes": 215912
+      }
+    ],
+    "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.linkedin.com/in/christian-garcia-barragan/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.instagram.com/christian_garba_sf/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.facebook.com/GarbaSeguros",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://sfgarba.com/allianz-optimaxx-plus-cotiza-plan-personal-de-retiro",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4285714285714284,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/portrait-960.webp",
+        "loaded": true,
+        "displayRatio": 0.7784431137724551,
+        "naturalRatio": 0.6649572649572649,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/family-960.webp",
+        "loaded": true,
+        "displayRatio": 0.5416666666666666,
+        "naturalRatio": 0.6649572649572649,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/work-480.webp",
+        "loaded": true,
+        "displayRatio": 1.0638297872340425,
+        "naturalRatio": 1.5053763440860215,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4324324324324325,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      }
+    ]
+  },
+  {
+    "engine": "chromium",
+    "viewport": "430x932",
+    "errors": [],
+    "failed": [],
+    "steps": [
+      "02 / 07",
+      "03 / 07",
+      "04 / 07",
+      "05 / 07",
+      "06 / 07",
+      "07 / 07"
+    ],
+    "last": "07 / 07",
+    "restart": "01 / 07",
+    "retirement": true,
+    "quote": "02 / 05",
+    "resizedOverflow": false,
+    "nav": {
+      "domReady": 199.39999997615814,
+      "scrollWidth": 430
+    },
+    "sizes": [
+      {
+        "name": "style.css",
+        "bytes": 19133
+      },
+      {
+        "name": "portrait-960.webp",
+        "bytes": 69628
+      },
+      {
+        "name": "garba-original.png",
+        "bytes": 2363
+      },
+      {
+        "name": "story.js",
+        "bytes": 4306
+      },
+      {
+        "name": "family-960.webp",
+        "bytes": 215912
+      }
+    ],
+    "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.linkedin.com/in/christian-garcia-barragan/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.instagram.com/christian_garba_sf/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.facebook.com/GarbaSeguros",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://sfgarba.com/allianz-optimaxx-plus-cotiza-plan-personal-de-retiro",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4285714285714284,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/portrait-960.webp",
+        "loaded": true,
+        "displayRatio": 0.7637655417406749,
+        "naturalRatio": 0.6666666666666666,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/family-960.webp",
+        "loaded": true,
+        "displayRatio": 0.5498721227621484,
+        "naturalRatio": 0.6666666666666666,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/work-480.webp",
+        "loaded": true,
+        "displayRatio": 1.0638297872340425,
+        "naturalRatio": 1.5053763440860215,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4324324324324325,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "viewport": "390x844",
+    "errors": [],
+    "failed": [],
+    "steps": [
+      "02 / 07",
+      "03 / 07",
+      "04 / 07",
+      "05 / 07",
+      "06 / 07",
+      "07 / 07"
+    ],
+    "last": "07 / 07",
+    "restart": "01 / 07",
+    "retirement": true,
+    "quote": "02 / 05",
+    "resizedOverflow": false,
+    "nav": {
+      "domReady": 642,
+      "scrollWidth": 390
+    },
+    "sizes": [
+      {
+        "name": "style.css",
+        "bytes": 19133
+      },
+      {
+        "name": "story.js",
+        "bytes": 4306
+      },
+      {
+        "name": "portrait-960.webp",
+        "bytes": 69628
+      },
+      {
+        "name": "garba-original.png",
+        "bytes": 2363
+      },
+      {
+        "name": "family-960.webp",
+        "bytes": 0
+      }
+    ],
+    "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.linkedin.com/in/christian-garcia-barragan/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.instagram.com/christian_garba_sf/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.facebook.com/GarbaSeguros",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://sfgarba.com/allianz-optimaxx-plus-cotiza-plan-personal-de-retiro",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4285714285714284,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/portrait-960.webp",
+        "loaded": true,
+        "displayRatio": 0.7784431137724551,
+        "naturalRatio": 0.6649572649572649,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/family-960.webp",
+        "loaded": true,
+        "displayRatio": 0.5416666666666666,
+        "naturalRatio": 0.6649572649572649,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/work-480.webp",
+        "loaded": true,
+        "displayRatio": 1.0638297872340425,
+        "naturalRatio": 1.5053763440860215,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4324324324324325,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      }
+    ]
+  },
+  {
+    "engine": "webkit",
+    "viewport": "430x932",
+    "errors": [],
+    "failed": [],
+    "steps": [
+      "02 / 07",
+      "03 / 07",
+      "04 / 07",
+      "05 / 07",
+      "06 / 07",
+      "07 / 07"
+    ],
+    "last": "07 / 07",
+    "restart": "01 / 07",
+    "retirement": true,
+    "quote": "02 / 05",
+    "resizedOverflow": false,
+    "nav": {
+      "domReady": 229,
+      "scrollWidth": 430
+    },
+    "sizes": [
+      {
+        "name": "style.css",
+        "bytes": 19133
+      },
+      {
+        "name": "story.js",
+        "bytes": 4306
+      },
+      {
+        "name": "garba-original.png",
+        "bytes": 2363
+      },
+      {
+        "name": "portrait-960.webp",
+        "bytes": 69628
+      },
+      {
+        "name": "family-960.webp",
+        "bytes": 0
+      }
+    ],
+    "links": [
+      {
+        "href": "https://wa.me/526623072573?text=Hola%20Christian%2C%20me%20gustar%C3%ADa%20que%20conect%C3%A1ramos.",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.linkedin.com/in/christian-garcia-barragan/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.instagram.com/christian_garba_sf/",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://www.facebook.com/GarbaSeguros",
+        "rel": "noopener noreferrer"
+      },
+      {
+        "href": "https://sfgarba.com/allianz-optimaxx-plus-cotiza-plan-personal-de-retiro",
+        "rel": "noopener noreferrer"
+      }
+    ],
+    "images": [
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4285714285714284,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      },
+      {
+        "src": "assets/portrait-960.webp",
+        "loaded": true,
+        "displayRatio": 0.7637655417406749,
+        "naturalRatio": 0.6666666666666666,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/family-960.webp",
+        "loaded": true,
+        "displayRatio": 0.5498721227621484,
+        "naturalRatio": 0.6666666666666666,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/work-480.webp",
+        "loaded": true,
+        "displayRatio": 1.0638297872340425,
+        "naturalRatio": 1.5053763440860215,
+        "fit": "cover"
+      },
+      {
+        "src": "assets/garba-original.png",
+        "loaded": true,
+        "displayRatio": 2.4324324324324325,
+        "naturalRatio": 2.443298969072165,
+        "fit": "contain"
+      }
+    ]
+  }
+]
