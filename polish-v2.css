@@ -1,0 +1,97 @@
+/* HORLI v2 — conserva el lenguaje editorial, pero hace visible lo esencial sin depender de swipes o tabs. */
+:root{
+  --ink:#14232d;
+  --ink-deep:#0d1820;
+  --paper:#f6f1e7;
+  --gold:#c6a267;
+  --muted:#b8c1c4;
+}
+body{background:var(--ink)}
+.career{background:#fbfaf7}
+.referrals,.ambition{background:#eee7db}
+
+/* La información clave deja de depender de interacción oculta. */
+.choices{display:block;max-width:1180px;margin-top:34px}
+.choices>input,.choices>label{display:none!important}
+.choice-panels{display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;padding:0;min-height:0}
+.choice-panel{display:flex!important;flex-direction:column;align-items:flex-start;gap:16px;padding:22px 20px 24px;border-top:1px solid var(--gold);background:rgba(255,255,255,.025);min-width:0}
+.choice-panel::before{font-size:9px;letter-spacing:.14em;color:var(--gold);font-weight:700}
+.family-panel::before{content:'MI FAMILIA'}
+.retirement-panel::before{content:'MI RETIRO'}
+.wealth-panel::before{content:'MI PATRIMONIO'}
+.choice-panel svg{width:145px;height:62px;align-self:flex-start}
+.choice-panel h3{font-size:24px}
+.choice-panel p{font-size:13px;margin-top:6px}
+.principle{margin-top:22px}
+
+/* Las frases de referencia se ven de un vistazo: no hay carrusel obligatorio. */
+.referrals-inner{grid-template-columns:.8fr 1.2fr;align-content:center}
+.conversation-wrap{margin-top:0}
+.quote-track{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 22px;overflow:visible;scroll-snap-type:none;scroll-behavior:auto}
+.quote{padding:18px 4px 22px 0;border-top:1px solid #b5aa97;min-width:0}
+.quote:nth-child(5){grid-column:1/-1}
+.quote figcaption{margin-bottom:11px}
+.quote blockquote{font-size:clamp(21px,2vw,31px);line-height:1.2;max-width:none}
+.quote-controls{display:none!important}
+.remember{margin-top:26px}
+
+/* El cierre también muestra las tres maneras de conectar sin esconder dos detrás de tabs. */
+.conversation-choices{display:block}
+.conversation-choices>input,.conversation-choices>label{display:none!important}
+.conversation-answers{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;padding-top:0;min-height:0}
+.answer{display:block!important;padding:19px 18px 20px;border-top:1px solid var(--gold);background:rgba(255,255,255,.025)}
+.answer h3{font-size:25px}
+.answer p{font-size:12px}
+.conversation-link{margin-top:14px}
+
+@media(max-width:899px){
+  .choice-panels{grid-template-columns:1fr 1fr}
+  .choice-panel:last-child{grid-column:1/-1}
+  .conversation-answers{grid-template-columns:1fr 1fr}
+  .answer:last-child{grid-column:1/-1}
+  .referrals-inner{grid-template-columns:1fr}
+  .conversation-wrap{margin-top:26px}
+}
+
+@media(max-width:599px){
+  html{scroll-snap-type:none}
+  .scene{scroll-snap-align:none;overflow:visible;min-height:auto}
+  .scene:not(.hero) .scene-inner{min-height:auto;padding-top:76px;padding-bottom:82px}
+  .hero{min-height:100svh;overflow:clip}
+  .masthead{position:absolute}
+
+  /* Menos interfaz flotante sobre el contenido en teléfono. */
+  .story-nav{height:44px;width:190px;padding:4px 7px 4px 14px;bottom:calc(8px + env(safe-area-inset-bottom));gap:6px}
+  .story-nav .scene-name,.story-nav .previous-scene{display:none}
+  .story-nav .next-scene{min-width:40px;min-height:36px}
+  .scene-count{flex:1}
+
+  /* Tres temas de trabajo, todos visibles en vertical. */
+  .choices{margin-top:25px}
+  .choice-panels{grid-template-columns:1fr;gap:14px}
+  .choice-panel,.choice-panel:last-child{grid-column:auto;padding:18px 16px 20px;gap:12px}
+  .choice-panel svg{width:125px;height:52px}
+  .choice-panel h3{font-size:24px}
+  .choice-panel p{font-size:12px;line-height:1.6}
+
+  /* Cinco señales de referencia visibles mediante scroll vertical natural. */
+  .quote-track{display:block}
+  .quote,.quote:nth-child(5){display:block;padding:17px 0 19px;border-top:1px solid #b5aa97;min-height:0}
+  .quote blockquote{font-size:25px;line-height:1.18}
+  .quote figcaption{font-size:8px;margin-bottom:9px}
+  .remember{margin-top:20px}
+
+  /* Las tres invitaciones del cierre quedan a la vista. */
+  .conversation-answers{display:block}
+  .answer{padding:17px 0 19px;background:transparent}
+  .answer+ .answer{margin-top:4px}
+  .answer h3{font-size:26px}
+  .answer p{font-size:12px;max-width:320px}
+  .conversation-link{font-size:11px}
+  .closing-question{margin-top:6px}
+
+  /* Paleta algo más cálida y respiración de lectura. */
+  .career,.referrals,.ambition{box-shadow:none}
+  .career-evolution{color:#4d5b55}
+  .ambition-invitation{color:#4d5954}
+}
