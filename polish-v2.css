@@ -1,14 +1,34 @@
 /* HORLI v2 — conserva el lenguaje editorial, pero hace visible lo esencial sin depender de swipes o tabs. */
 :root{
-  --ink:#14232d;
-  --ink-deep:#0d1820;
-  --paper:#f6f1e7;
+  --ink:#1a2d38;
+  --ink-deep:#10212b;
+  --paper:#f8f4ec;
   --gold:#c6a267;
   --muted:#b8c1c4;
 }
 body{background:var(--ink)}
 .career{background:#fbfaf7}
 .referrals,.ambition{background:#eee7db}
+
+/* Más aire visual: las secciones informativas pasan a fondos claros y cálidos. */
+.purpose{background:#f8f4ec;color:var(--ink)}
+.purpose .eyebrow{color:#8b6936}
+.purpose h2 em{color:#8b6936}
+.purpose .instruction{color:#596762}
+.purpose .choice-panel{background:rgba(26,45,56,.035);border-top-color:#b99459}
+.purpose .choice-panel::before{color:#8b6936}
+.purpose .choice-panel svg{stroke:#9a753c}
+.purpose .choice-panel p{color:#596762}
+.purpose .principle{color:#596762;border-top-color:#cfc5b4}
+.purpose .principle strong{color:#8b6936}
+
+.network{background:#fbfaf7;color:var(--ink)}
+.network .eyebrow,.network .direction-label{color:#8b6936}
+.network h2 em{color:#8b6936}
+.network .give-direction>p:not(.direction-label),.network .network-note{color:#596762}
+.network .give-direction .text-link{color:#7e6032;border-bottom-color:#b8a98e}
+.network .connections>span{border-bottom-color:#d5cec1}
+.network .receive-direction{border-color:#d5cec1}
 
 /* La información clave deja de depender de interacción oculta. */
 .choices{display:block;max-width:1180px;margin-top:34px}
@@ -90,8 +110,8 @@ body{background:var(--ink)}
   .conversation-link{font-size:11px}
   .closing-question{margin-top:6px}
 
-  /* Paleta algo más cálida y respiración de lectura. */
-  .career,.referrals,.ambition{box-shadow:none}
+  /* Paleta más luminosa y respiración de lectura. */
+  .career,.referrals,.ambition,.purpose,.network{box-shadow:none}
   .career-evolution{color:#4d5b55}
   .ambition-invitation{color:#4d5954}
 }
