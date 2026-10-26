@@ -115,3 +115,29 @@ body{background:var(--ink)}
   .career-evolution{color:#4d5b55}
   .ambition-invitation{color:#4d5954}
 }
+
+/* BNI referral radar — native details, no additional scripts or external assets. */
+.referrals .scene-inner{height:auto}
+.referral-radar{grid-column:1/-1;width:100%;margin:36px 0 8px;color:var(--ink)}
+.radar-heading{max-width:690px;margin-bottom:22px}
+.radar-heading .eyebrow{color:#886b3c;margin-bottom:9px}
+.radar-heading h3{font-family:var(--serif);font-size:clamp(32px,3.4vw,51px);font-weight:400;letter-spacing:-.04em;line-height:1.1}
+.radar-heading>p:last-child{margin-top:12px;font-size:14px;line-height:1.65;color:#50605e}
+.radar-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;align-items:start}
+.radar-card{background:#fbfaf7;border:1px solid #d9d1c4;border-radius:4px;min-width:0;overflow:hidden}
+.radar-card summary{list-style:none;cursor:pointer;padding:20px 17px 17px;min-height:218px;display:flex;flex-direction:column;gap:11px}
+.radar-card summary::-webkit-details-marker{display:none}
+.radar-card summary:focus-visible{outline:2px solid #8b6936;outline-offset:-4px}
+.radar-number{font-size:10px;letter-spacing:.13em;color:#8b6936;font-weight:700}
+.radar-card summary strong{font-family:var(--serif);font-size:clamp(21px,2vw,28px);font-weight:400;line-height:1.16;letter-spacing:-.03em}
+.radar-teaser{font-size:12px;line-height:1.5;color:#4e5d5c}
+.radar-more{margin-top:auto;padding-top:10px;border-top:1px solid #ddd4c7;display:flex;justify-content:space-between;gap:8px;font-size:11px;color:#806135;font-weight:700}
+.radar-card[open] .radar-more span{transform:rotate(45deg)}
+.radar-detail{border-top:1px solid #ded4c6;padding:0 17px 18px}
+.radar-detail p{font-size:12px;line-height:1.55;margin-top:15px;color:#4d5956}
+.radar-detail b{display:block;font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#806135;margin-bottom:5px}
+.radar-action{margin-top:18px;display:flex;align-items:center;justify-content:space-between;gap:20px;border-top:1px solid #b5aa97;padding-top:18px}
+.radar-action p{font-size:13px;line-height:1.6;max-width:650px}
+.radar-action a{flex-shrink:0;display:inline-flex;gap:14px;align-items:center;background:#1a2d38;color:#fff;padding:15px 18px;font-size:12px;min-height:44px}
+@media(max-width:1000px){.radar-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.radar-card summary{min-height:185px}}
+@media(max-width:599px){.referral-radar{margin-top:32px}.radar-grid{grid-template-columns:1fr;gap:10px}.radar-card summary{min-height:0;padding:17px 16px;gap:8px}.radar-card summary strong{font-size:26px}.radar-more{margin-top:8px}.radar-action{display:block}.radar-action a{margin-top:15px;justify-content:space-between;width:100%}.radar-heading>p:last-child{font-size:13px}}
