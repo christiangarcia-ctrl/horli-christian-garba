@@ -18,6 +18,7 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="assets/favicon.png" type="image/png">
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="polish-v2.css">
 <script src="story.js" defer></script>
 </head>
 <body>
@@ -28,7 +29,8 @@
 </header>
 <main id="historia">
 <section class="scene hero" id="inicio" aria-labelledby="title-1" data-name="El principio">
-<picture class="hero-photo"><source srcset="assets/portrait-480.webp 480w, assets/portrait-960.webp 853w" sizes="(min-width: 900px) 52vw, 100vw"><img src="assets/portrait-960.webp" width="853" height="1280" alt="Christian García con traje azul y anteojos, de pie con los brazos cruzados." fetchpriority="high"></picture>
+<picture class="hero-photo"><source srcset="assets/portrait-480.webp 480w, assets/portrait-960.webp 853w" sizes="(min-width: 900px) 52vw, 100vw"><img src="assets/portrait-960.webp" width="853" height="1280" alt="Christian García con traje azul y anteojos, de pie con los brazos cruzados." loading="lazy" fetchpriority="low"></picture>
+<script>if (!location.hash || location.hash === "#inicio") { const heroImage = document.querySelector(".hero-photo img"); heroImage.loading = "eager"; heroImage.fetchPriority = "high"; }</script>
 <div class="hero-shade"></div>
 <div class="scene-inner hero-copy">
 <p class="eyebrow reveal">UNA HISTORIA SOBRE LO QUE CONSTRUIMOS</p>
