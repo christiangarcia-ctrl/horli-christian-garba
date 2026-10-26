@@ -1,10 +1,5 @@
 'use strict';
 (() => {
-  const polish = document.createElement('link');
-  polish.rel = 'stylesheet';
-  polish.href = 'polish-v2.css';
-  document.head.appendChild(polish);
-
   const scenes = [...document.querySelectorAll('.scene')];
   const previous = document.querySelector('.previous-scene');
   const next = document.querySelector('.next-scene');
